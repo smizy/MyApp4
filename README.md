@@ -4,7 +4,7 @@ MyApp4
 A demo app with Apsalar SDK on Android ouput error log like "Are you missing a call to unregisterReceiver()?...".
 
 
-1. Before event tracking, You need to integerate Apsalar Android SDK.
+1. integerate Apsalar Android SDK.
 (import apsala.jar into app/libs/, etc...)
 
  Refer to:
@@ -15,6 +15,6 @@ A demo app with Apsalar SDK on Android ouput error log like "Are you missing a c
 4. back to main by up navigation on top left corner
 5. tap send button
 6. back to main by up navigation on top left corner
-7. confirm message "Are you missing a call to unregisterReceiver()?" in logcat.
+7. error logged "Are you missing a call to unregisterReceiver()?" with stacktrace in logcat.
 
 
